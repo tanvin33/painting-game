@@ -1,0 +1,109 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  height: 1000px;
+  width: 1000px;
+}
+
+h1 {
+  font-style: bold;
+  color: #fc8803;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: #af6ccc;
+}
+
+h3 {
+  text-align: center;
+  color: #78c773;
+}
+
+p {
+  text-align: center;
+}
+
+br {
+  text-align: center;
+  
+}
+
+canvas {
+  border: thick solid #fc8803;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.btn {
+  border: none;
+  background-color: #70cee6;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  textalign: center;
+  color: white;
+}
+
+/* On mouse-over */
+.btn:hover {
+  background: #b6bfbf;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  height: 50%;
+
+  padding: 10px;
+}
+
+.center1 {
+  float: center;
+  width: 300px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Centered top text */
+.top-center {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
